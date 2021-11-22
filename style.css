@@ -1,20 +1,62 @@
+@font-face {
+  font-family: Inter;
+  src: url("./Inter-Regular.woff") format("woff");
+}
+
 .page {
+  color: white;
   position: absolute;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
   background-color: #2a2c2f;
 }
 
 .logo {
-  position: absolute;
+  margin: 34px auto 92px auto;
   width: 271px;
   height: 72px;
-  left: 504px;
-  top: 34px;
 }
 
 .logo__sign {
+  margin: auto;
+  border-radius: 2px;
+  height: 32px;
+  width: 32px;
   display: grid;
-  grid-template-columns: 3;
-  grid-template-rows: 3;
+  grid-gap: 2px;
+  grid-template-areas:
+    "side-up side-up side-up side-up side-up"
+    "side-left side-left side-right side-right side-right"
+    "side-left side-left side-right side-right side-right"
+    "side-left side-left side-right side-right side-right";
+}
+
+.logo__sign-upper {
+  background-color: #0278fe;
+  grid-area: side-up;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.logo__sign-left {
+  background-color: #0278fe;
+  grid-area: side-left;
+  border-bottom-left-radius: 2px;
+}
+
+.logo__sign-right {
+  background-color: #0278fe;
+  grid-area: side-right;
+  border-bottom-right-radius: 2px;
+}
+
+.logo__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+  text-transform: uppercase;
 }
