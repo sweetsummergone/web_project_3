@@ -23,13 +23,13 @@
   font-family: Inter;
   font-style: normal;
   color: white;
-  position: absolute;
-  width: 100%;
+  margin: 0 auto;
   background-color: #2a2c2f;
 }
 
 .logo {
-  margin: 34px auto 92px auto;
+  margin: 0 auto 92px auto;
+  padding-top: 34px;
   width: 271px;
   height: 72px;
 }
@@ -103,6 +103,7 @@
 }
 
 .lead__image-homeland {
+  filter: grayscale(100%);
   width: 100%;
   height: 100%;
 }
@@ -172,6 +173,7 @@
   width: 987px;
   display: grid;
   grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 420px 1fr;
   row-gap: 48px;
   column-gap: 40px;
   margin-bottom: 80px;
@@ -204,6 +206,12 @@
   font-size: 18px;
   line-height: 22px;
 }
+
+.place__button-buy:hover {
+  cursor: pointer;
+  background-color: #0063d2;
+}
+
 .place__paragraphs {
   padding: 0;
   list-style: none;
@@ -262,6 +270,15 @@
 
 .cover__background {
   position: absolute;
+  max-width: 1168px;
+  z-index: 0;
+}
+
+.cover:hover {
+  cursor: pointer;
+  background: #2a2c2f;
+  opacity: 0.8;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .cover__info {
@@ -288,6 +305,11 @@
   color: white;
 }
 
+.cover__button-buy:hover {
+  cursor: pointer;
+  background-color: #0063d2;
+}
+
 .footer {
   text-align: center;
   font-weight: normal;
@@ -297,10 +319,39 @@
 }
 
 @media screen and (max-width: 1184px) {
+  .page {
+    position: absolute;
+  }
+  .lead__image-homeland {
+    max-width: 768px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .intro {
+    padding: 0 24px;
+    max-width: 720px;
+  }
   .photo-grid {
     width: 768px;
     display: flex;
     flex-wrap: wrap;
+  }
+  .place {
+    column-gap: 90px;
+    margin-left: 24px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+  }
+  .place__image {
+    width: 340px;
+    height: 340px;
+  }
+  .cover__background {
+    width: 100%;
+  }
+  .cover {
+    margin: 0 auto;
   }
 }
 
@@ -309,5 +360,119 @@
     width: 364px;
     display: flex;
     flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: 320px;
+    margin: auto;
+  }
+  .logo {
+    width: 200px;
+  }
+  .lead {
+    max-width: 320px;
+    margin: auto;
+  }
+  .lead__title {
+    font-size: 40px;
+    width: 288px;
+    line-height: 44px;
+  }
+  .lead__subtitle {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .lead__image-homeland {
+    width: 320px;
+  }
+  .intro {
+    padding: 0;
+    max-width: 288px;
+  }
+  .intro__title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    /* or 109% */
+  }
+  .photo-grid__item {
+    margin: auto;
+    max-width: 288px;
+    height: 216px;
+  }
+  .photo-grid__photo {
+    max-width: 288px;
+    height: 216px;
+  }
+  .places {
+    max-width: 320px;
+    margin: auto;
+  }
+  .place {
+    margin: 0;
+    max-width: 320px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    line-height: 163%;
+  }
+  .place__title {
+    margin: 48px 16px 30px 16px;
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .place__paragraphs {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .website {
+    margin: 0 16px 30px 16px;
+  }
+  .place__button-buy {
+    margin: auto;
+  }
+  .place__image {
+    box-sizing: border-box;
+    width: 320px;
+    height: 320px;
+  }
+  .cover {
+    margin-top: 64px;
+    max-width: 320px;
+    max-height: 254px;
+  }
+
+  .cover__background {
+    width: 320px;
+    height: 254px;
+  }
+
+  .cover__info {
+    max-width: 320px;
+    padding-top: 10vh;
+  }
+
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .cover__subtitle {
+    margin: 16px 0;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .cover__button-buy {
+    width: 137px;
+    height: 48px;
+  }
+
+  .cover__background {
+    max-width: 320px;
   }
 }
