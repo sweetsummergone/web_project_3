@@ -1,0 +1,23 @@
+.cover__button-buy {
+  background-color: #0278fe;
+  border-style: none;
+  border-radius: 4px;
+  width: 137px;
+  height: 48px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+
+.cover__button-buy:hover {
+  cursor: pointer;
+  background-color: #0063d2;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__button-buy {
+    width: 137px;
+    height: 48px;
+  }
+}

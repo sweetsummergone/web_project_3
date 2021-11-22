@@ -1,0 +1,31 @@
+.place {
+  margin: auto;
+  width: 987px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 420px 1fr;
+  row-gap: 48px;
+  column-gap: 40px;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1184px) {
+  .place {
+    column-gap: 90px;
+    margin-left: 24px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    margin: 0;
+    max-width: 320px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    line-height: 163%;
+  }
+}

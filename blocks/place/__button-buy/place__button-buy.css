@@ -1,0 +1,23 @@
+.place__button-buy {
+  margin-top: 48px;
+  width: 248px;
+  height: 48px;
+  border-style: none;
+  color: white;
+  background: #0278fe;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.place__button-buy:hover {
+  cursor: pointer;
+  background-color: #0063d2;
+}
+
+@media screen and (max-width: 320px) {
+  .place__button-buy {
+    margin: auto;
+  }
+}
