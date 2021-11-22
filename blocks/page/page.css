@@ -4,6 +4,8 @@
   color: white;
   margin: 0 auto;
   background-color: #2a2c2f;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (max-width: 1184px) {
