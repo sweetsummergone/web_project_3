@@ -16,8 +16,14 @@
 }
 @media screen and (max-width: 768px) {
   .photo-grid {
-    width: 364px;
+    width: 768px;
     display: flex;
     flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    width: 320px;
   }
 }
