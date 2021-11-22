@@ -19,4 +19,4 @@ This is a project that showcases the hometowns of some of Practicum's employees.
 
 **Link on GitHub Pages**
 
-- [Click](https://sweetsummergone.github.com/web_project_3)
+- [Click](https://sweetsummergone.github.io/web_project_3/)
