@@ -2,9 +2,8 @@
   background-color: #0278fe;
   border-style: none;
   border-radius: 4px;
-  width: 137px;
-  height: 48px;
-  font-weight: 600;
+  max-width: 137px;
+  max-height: 48px;
   font-size: 18px;
   line-height: 22px;
   color: white;
@@ -17,7 +16,7 @@
 
 @media screen and (max-width: 320px) {
   .cover__button-buy {
-    width: 137px;
-    height: 48px;
+    max-width: 137px;
+    max-height: 48px;
   }
 }
