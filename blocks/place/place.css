@@ -2,7 +2,7 @@
   margin: auto;
   max-width: 987px;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 40%;
   grid-template-rows: 1fr 420px 1fr;
   row-gap: 48px;
   column-gap: 40px;
@@ -11,13 +11,23 @@
 
 @media screen and (max-width: 1184px) {
   .place {
-    column-gap: 90px;
-    margin-left: 24px;
-    font-weight: normal;
+    row-gap: 28px;
+    column-gap: 30px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    /* max-width: 768px; */
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place {
+    max-width: 425px;
     display: flex;
-    flex-direction: column;
-    font-size: 16px;
-    line-height: 163%;
+    flex-wrap: wrap;
   }
 }
 

@@ -1,7 +1,23 @@
-@media screen and (max-width: 320px) {
+.photo-grid__item {
+  width: 100%;
+  max-width: 284px;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1185px) {
+  .photo-grid__item {
+    width: 100%;
+    max-width: 352px;
+    height: auto;
+    /* height: 264px; */
+  }
+}
+
+@media screen and (max-width: 360px) {
   .photo-grid__item {
     margin: auto;
     max-width: 288px;
-    max-height: 216px;
+    width: 100%;
+    height: auto;
   }
 }

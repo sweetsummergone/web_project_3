@@ -1,18 +1,22 @@
 .cover__info {
-  position: relative;
-  padding-top: 26vh;
+  max-width: 656px;
+  max-height: 254px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   margin: auto;
   z-index: 1;
   display: flex;
-  width: 656px;
-  height: 254px;
   flex-direction: column;
   align-items: center;
 }
 
 @media screen and (max-width: 320px) {
   .cover__info {
+    width: 100%;
     max-width: 320px;
-    padding-top: 10vh;
+    height: auto;
   }
 }
