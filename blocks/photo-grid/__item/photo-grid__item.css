@@ -2,6 +2,6 @@
   .photo-grid__item {
     margin: auto;
     max-width: 288px;
-    height: 216px;
+    max-height: 216px;
   }
 }

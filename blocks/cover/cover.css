@@ -1,7 +1,7 @@
 .cover {
   margin: auto;
-  width: 1184px;
-  height: 740px;
+  max-width: 1184px;
+  max-height: 740px;
 }
 
 .cover:hover {
@@ -13,7 +13,6 @@
 
 @media screen and (max-width: 1184px) {
   .cover {
-    margin: 0 auto;
   }
 }
 

@@ -6,11 +6,20 @@
   margin: 0;
 }
 
+@media screen and (max-width: 460px) {
+  .place__title {
+    margin: 48px 16px 30px 16px;
+    max-width: 288px;
+    font-size: 3em;
+    line-height: 1em;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__title {
     margin: 48px 16px 30px 16px;
     max-width: 288px;
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 1em;
+    line-height: 1em;
   }
 }

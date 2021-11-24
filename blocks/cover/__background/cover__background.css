@@ -1,18 +1,19 @@
 .cover__background {
   position: absolute;
-  width: 1184px;
+  max-width: 1184px;
+  object-fit: contain;
   z-index: 0;
 }
 
 @media screen and (max-width: 1184px) {
   .cover__background {
-    width: 100%;
+    object-fit: contain;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__background {
     max-width: 320px;
-    height: 254px;
+    max-height: 254px;
   }
 }

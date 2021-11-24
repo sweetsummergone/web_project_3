@@ -1,6 +1,6 @@
 .place {
   margin: auto;
-  width: 987px;
+  max-width: 987px;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 1fr 420px 1fr;
@@ -14,6 +14,8 @@
     column-gap: 90px;
     margin-left: 24px;
     font-weight: normal;
+    display: flex;
+    flex-direction: column;
     font-size: 16px;
     line-height: 163%;
   }
