@@ -10,9 +10,3 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-@media screen and (max-widht: 768px) {
-  .page {
-    max-width: 768px;
-  }
-}
