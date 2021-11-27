@@ -1,6 +1,9 @@
 .intro {
+  display: grid;
+  grid-template-columns: 784px calc(984px - 784px);
   text-align: left;
-  max-width: 785px;
+  max-width: 984px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 1184px) {
   .intro {

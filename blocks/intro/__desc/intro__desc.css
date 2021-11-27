@@ -4,5 +4,6 @@
   font-size: 16px;
   line-height: 163%;
   margin-bottom: 118px;
+  grid-column: 1;
   /* or 26px */
 }

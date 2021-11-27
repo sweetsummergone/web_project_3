@@ -3,11 +3,11 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
+  grid-column: 1;
 }
 
 @media screen and (max-width: 320px) {
   .intro__title {
-    font-weight: 900;
     font-size: 32px;
     line-height: 35px;
     /* or 109% */

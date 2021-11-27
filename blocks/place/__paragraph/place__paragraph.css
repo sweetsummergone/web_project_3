@@ -6,6 +6,10 @@
   /* or 29px */
 }
 
+.place__paragraph:last-child {
+  margin-bottom: 0px;
+}
+
 @media screen and (max-width: 1184px) {
   .place__paragraph {
     max-width: 352px;

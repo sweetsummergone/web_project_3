@@ -2,7 +2,7 @@
   grid-row: 2;
   grid-column: 2;
   max-width: 656px;
-  max-height: 254px;
+  min-height: 254px;
   margin: auto;
   z-index: 1;
   display: flex;

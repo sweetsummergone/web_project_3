@@ -6,7 +6,8 @@
   color: white;
   background: #0278fe;
   border-radius: 4px;
-  font-family: "Inter", 600;
+  font-family: "Inter", "Gill Sans", sans-serif;
+  font-weight: 600;
   font-size: 18px;
   line-height: 22px;
 }

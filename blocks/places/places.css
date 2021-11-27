@@ -1,7 +1,5 @@
 .places {
   margin-top: 92px;
-  padding: 0;
-  list-style: none;
 }
 
 @media screen and (max-width: 320px) {
