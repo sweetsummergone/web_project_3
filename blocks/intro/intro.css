@@ -7,13 +7,21 @@
 }
 @media screen and (max-width: 1184px) {
   .intro {
+    grid-template-columns: 720px calc(984px - 720px);
     padding: 0 24px;
-    max-width: 720px;
   }
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 745px) {
   .intro {
+    grid-template-columns: 280px calc(320px - 280px);
     padding: 0;
     max-width: 288px;
+  }
+}
+
+@media screen and (max-width: 342px) {
+  .intro {
+    grid-template-columns: 90vw 10vw;
   }
 }

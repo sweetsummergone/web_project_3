@@ -6,12 +6,13 @@
   margin: 0;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 1167px) {
   .place__title {
-    margin: 48px 16px 30px 16px;
-    max-width: 288px;
-    font-size: 3em;
-    line-height: 1em;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 46px;
   }
 }
 

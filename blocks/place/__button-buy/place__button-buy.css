@@ -1,6 +1,6 @@
 .place__button-buy {
   margin-top: 48px;
-  max-width: 320px;
+  max-width: 248px;
   height: 48px;
   border-style: none;
   color: white;
@@ -19,6 +19,7 @@
 
 @media screen and (max-width: 320px) {
   .place__button-buy {
+    max-width: 320px;
     margin: auto;
   }
 }
