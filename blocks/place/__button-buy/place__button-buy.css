@@ -1,5 +1,4 @@
 .place__button-buy {
-  margin-top: 48px;
   max-width: 248px;
   height: 48px;
   border-style: none;
@@ -10,6 +9,8 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
+  align-items: start;
+  grid-area: button;
 }
 
 .place__button-buy:hover {
@@ -19,7 +20,9 @@
 
 @media screen and (max-width: 320px) {
   .place__button-buy {
-    max-width: 320px;
+    max-width: 288px;
+    min-height: 48px;
     margin: auto;
+    margin-top: 30px;
   }
 }

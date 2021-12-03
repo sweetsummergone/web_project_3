@@ -1,7 +1,7 @@
 .cover {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: repeat(3, 1fr);
   background-image: url("../../images/__background.png");
   background-repeat: no-repeat;
@@ -10,6 +10,12 @@
   width: 100%;
   max-width: 1184px;
   height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    max-height: 746px;
+  }
 }
 
 @media screen and (max-width: 320px) {

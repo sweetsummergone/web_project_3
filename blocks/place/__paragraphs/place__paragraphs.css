@@ -1,6 +1,7 @@
 .place__paragraphs {
   padding: 0;
   list-style: none;
+  grid-area: text;
 }
 
 @media screen and (max-width: 320px) {

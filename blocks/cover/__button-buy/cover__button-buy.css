@@ -15,10 +15,3 @@
   cursor: pointer;
   background-color: #0063d2;
 }
-
-@media screen and (max-width: 320px) {
-  .cover__button-buy {
-    max-width: 137px;
-    max-height: 48px;
-  }
-}

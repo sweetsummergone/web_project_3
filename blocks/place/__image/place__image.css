@@ -1,19 +1,27 @@
 .place__image {
-  box-sizing: content-box;
   max-width: 460px;
   max-height: 460px;
+  grid-row: 2;
+  grid-column: 1;
+  grid-area: image;
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 1184px) {
   .place__image {
-    width: 100%;
     max-width: 340px;
-    height: auto;
   }
 }
 
 @media screen and (max-width: 365px) {
   .place__image {
     max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__image {
+    margin-bottom: 32px;
   }
 }

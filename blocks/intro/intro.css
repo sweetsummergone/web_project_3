@@ -4,6 +4,7 @@
   text-align: left;
   max-width: 984px;
   margin: 0 auto;
+  margin-bottom: 118px;
 }
 @media screen and (max-width: 1184px) {
   .intro {
@@ -12,16 +13,21 @@
   }
 }
 
-@media screen and (max-width: 745px) {
+@media screen and (max-width: 768px) {
   .intro {
-    grid-template-columns: 280px calc(320px - 280px);
+    grid-template-columns: fit-content(720px);
     padding: 0;
-    max-width: 288px;
+    max-width: 720px;
+
+    margin-bottom: 88px;
   }
 }
 
-@media screen and (max-width: 342px) {
+@media screen and (max-width: 320px) {
   .intro {
-    grid-template-columns: 90vw 10vw;
+    max-width: calc(100vw - 32px);
+    grid-column: auto;
+    margin: 0 auto;
+    margin-bottom: 90px;
   }
 }

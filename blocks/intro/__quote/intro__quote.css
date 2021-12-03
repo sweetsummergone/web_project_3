@@ -6,3 +6,9 @@
   line-height: 34px;
   grid-column: 1;
 }
+
+@media screen and (max-width: 320px) {
+  .intro__quote {
+    line-height: 30px;
+  }
+}
