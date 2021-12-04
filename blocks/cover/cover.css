@@ -12,9 +12,16 @@
   height: auto;
 }
 
+.cover:hover .cover__overlay {
+  background: #2a2c2f;
+  opacity: 0.8;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 @media screen and (max-width: 768px) {
   .cover {
-    max-height: 746px;
+    min-height: 746px;
   }
 }
 
@@ -22,6 +29,7 @@
   .cover {
     margin-top: 64px;
     max-width: 320px;
-    min-height: 254px;
+    min-height: auto;
+    max-height: 254px;
   }
 }

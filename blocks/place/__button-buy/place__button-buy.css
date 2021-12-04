@@ -20,9 +20,17 @@
 
 @media screen and (max-width: 320px) {
   .place__button-buy {
-    max-width: 288px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 288px;
     min-height: 48px;
-    margin: auto;
     margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 288px) {
+  .place__button-buy {
+    min-width: 0;
+    max-width: 288px;
   }
 }
