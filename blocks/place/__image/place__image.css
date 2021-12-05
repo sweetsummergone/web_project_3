@@ -5,12 +5,11 @@
   grid-column: 1;
   grid-area: image;
   width: 100%;
-  height: auto;
 }
 
 @media screen and (max-width: 1184px) {
   .place__image {
-    max-width: 340px;
+    min-width: 320px;
   }
 }
 
@@ -23,5 +22,6 @@
 @media screen and (max-width: 320px) {
   .place__image {
     margin-bottom: 32px;
+    min-width: 100px;
   }
 }

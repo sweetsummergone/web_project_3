@@ -3,7 +3,7 @@
   max-width: 987px;
   display: grid;
   grid-template-columns: fit-content(460px) auto;
-  grid-template-rows: auto minmax(35vh, auto) auto;
+  grid-template-rows: auto 460px auto;
   grid-template-areas:
     "location author"
     "image text"
@@ -20,6 +20,7 @@
 @media screen and (max-width: 1184px) {
   .place {
     grid-template-columns: fit-content(340px) auto;
+    grid-template-rows: auto 340px auto;
     column-gap: 28px;
     max-width: 768px;
   }
