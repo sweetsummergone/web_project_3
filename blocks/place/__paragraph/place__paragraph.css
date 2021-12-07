@@ -6,6 +6,10 @@
   /* or 29px */
 }
 
+.place__paragraph span:nth-child(2) {
+  display: none;
+}
+
 .place__paragraph:last-child {
   margin-bottom: 0px;
 }
@@ -19,5 +23,13 @@
 @media screen and (max-width: 768px) {
   .place__paragraph {
     max-width: 352px;
+  }
+
+  .place__paragraph span:nth-child(1) {
+    display: none;
+  }
+
+  .place__paragraph span:nth-child(2) {
+    display: inline;
   }
 }
